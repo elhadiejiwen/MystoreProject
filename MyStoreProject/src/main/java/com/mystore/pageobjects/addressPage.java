@@ -16,6 +16,8 @@ public class addressPage extends BaseClass {
 		PageFactory.initElements(getDriver(), this);
 	}
 	
+	
+	
 	public shippingPage clickOnCheckOut() {
 		Action.click(getDriver(), proceedToCheckOut);
 		return new shippingPage();
