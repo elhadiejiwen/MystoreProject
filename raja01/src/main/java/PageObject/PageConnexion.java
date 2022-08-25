@@ -22,6 +22,8 @@ public class PageConnexion extends Base{
 		 boutonConnexion.click();
 		 
 	 }
+	 
+	 
      public void clic_Creer_Compte() {
     	  boutonCreerCompte.click();
      }
